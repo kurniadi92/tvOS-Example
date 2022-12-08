@@ -190,6 +190,7 @@
                         <segue destination="ToR-ey-h5k" kind="relationship" relationship="viewControllers" id="STK-3v-Bki"/>
                         <segue destination="e1R-pv-g7c" kind="relationship" relationship="viewControllers" id="Ue7-7P-GMk"/>
                         <segue destination="5bn-Oh-Vj0" kind="relationship" relationship="viewControllers" id="HE6-Y1-VQ0"/>
+                        <segue destination="MSM-7c-K03" kind="relationship" relationship="viewControllers" id="QFh-5M-XbS"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GFu-zm-bRT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -214,6 +215,44 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IXr-UR-fEN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="26" y="1124"/>
+        </scene>
+        <!--Player-->
+        <scene sceneID="1Gl-Vm-F4i">
+            <objects>
+                <viewController storyboardIdentifier="VideoPlayerViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="MSM-7c-K03" customClass="VideoPlayerViewController" customModule="tvExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yUi-4K-kBh"/>
+                        <viewControllerLayoutGuide type="bottom" id="yS9-Hw-a7e"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pjz-WN-3kD">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v2c-dd-Elj">
+                                <rect key="frame" x="747.5" y="545.5" width="425" height="86"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="8ad-h2-ode"/>
+                                    <constraint firstAttribute="width" constant="425" id="Mqv-CK-H8Y"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Play Video"/>
+                                <connections>
+                                    <action selector="playVideo:" destination="MSM-7c-K03" eventType="primaryActionTriggered" id="Urg-L1-33M"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="9VH-0R-KPn"/>
+                        <constraints>
+                            <constraint firstItem="v2c-dd-Elj" firstAttribute="centerY" secondItem="9VH-0R-KPn" secondAttribute="centerY" id="21S-bT-wHV"/>
+                            <constraint firstItem="v2c-dd-Elj" firstAttribute="centerX" secondItem="9VH-0R-KPn" secondAttribute="centerX" id="IUT-td-FII"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Player" id="Wim-QW-eBf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="avC-BO-9Me" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50" y="2521"/>
         </scene>
         <!--Search Result Collection View Controller-->
         <scene sceneID="oyZ-2W-MHc">
@@ -249,7 +288,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m0P-U0-Fdg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="177" y="2721"/>
+            <point key="canvasLocation" x="2234" y="1124"/>
         </scene>
     </scenes>
 </document>

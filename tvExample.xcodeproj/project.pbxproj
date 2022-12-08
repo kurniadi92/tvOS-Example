@@ -16,6 +16,8 @@
 		4A0685CC293DCE40006E3D3B /* TitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A0685CA293DCE40006E3D3B /* TitleTableViewCell.xib */; };
 		4A0685CF293DCF01006E3D3B /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0685CD293DCF01006E3D3B /* MovieCollectionViewCell.swift */; };
 		4A0685D0293DCF01006E3D3B /* MovieCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A0685CE293DCF01006E3D3B /* MovieCollectionViewCell.xib */; };
+		4AC858B7294198C0006346D3 /* AVPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC858B6294198C0006346D3 /* AVPlayer.swift */; };
+		4AC858B929419DF8006346D3 /* PlainPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC858B829419DF7006346D3 /* PlainPlayerViewController.swift */; };
 		4AF1DC5D293DE3EA0075F36E /* FocusGuideLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF1DC5C293DE3EA0075F36E /* FocusGuideLineViewController.swift */; };
 		4AF1DC5F293DEE8E0075F36E /* ExampleSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF1DC5E293DEE8E0075F36E /* ExampleSearchController.swift */; };
 		4AF1DC63294077D10075F36E /* SearchResultCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF1DC62294077D10075F36E /* SearchResultCollectionViewController.swift */; };
@@ -33,6 +35,8 @@
 		4A0685CA293DCE40006E3D3B /* TitleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleTableViewCell.xib; sourceTree = "<group>"; };
 		4A0685CD293DCF01006E3D3B /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
 		4A0685CE293DCF01006E3D3B /* MovieCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCollectionViewCell.xib; sourceTree = "<group>"; };
+		4AC858B6294198C0006346D3 /* AVPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayer.swift; sourceTree = "<group>"; };
+		4AC858B829419DF7006346D3 /* PlainPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainPlayerViewController.swift; sourceTree = "<group>"; };
 		4AF1DC5C293DE3EA0075F36E /* FocusGuideLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusGuideLineViewController.swift; sourceTree = "<group>"; };
 		4AF1DC5E293DEE8E0075F36E /* ExampleSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSearchController.swift; sourceTree = "<group>"; };
 		4AF1DC62294077D10075F36E /* SearchResultCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCollectionViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 				4AF1DC5E293DEE8E0075F36E /* ExampleSearchController.swift */,
 				4AF1DC62294077D10075F36E /* SearchResultCollectionViewController.swift */,
 				4AF1DC6429407BC40075F36E /* AppData.swift */,
+				4AC858B6294198C0006346D3 /* AVPlayer.swift */,
+				4AC858B829419DF7006346D3 /* PlainPlayerViewController.swift */,
 			);
 			path = tvExample;
 			sourceTree = "<group>";
@@ -167,8 +173,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AC858B929419DF8006346D3 /* PlainPlayerViewController.swift in Sources */,
 				4AF1DC5D293DE3EA0075F36E /* FocusGuideLineViewController.swift in Sources */,
 				4A0685BA293DC1EF006E3D3B /* ViewController.swift in Sources */,
+				4AC858B7294198C0006346D3 /* AVPlayer.swift in Sources */,
 				4A0685CB293DCE40006E3D3B /* TitleTableViewCell.swift in Sources */,
 				4AF1DC6529407BC40075F36E /* AppData.swift in Sources */,
 				4A0685B8293DC1EF006E3D3B /* AppDelegate.swift in Sources */,
